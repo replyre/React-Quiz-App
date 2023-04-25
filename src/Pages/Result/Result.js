@@ -8,7 +8,7 @@ const Result = (props) => {
 const navigate=useNavigate()
 
 useEffect(()=>{
- if(!props.name) navigate("/")
+ if(!props.name) navigate("/React-Quiz-App")
 },[props.name])
 
 

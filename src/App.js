@@ -32,7 +32,7 @@ export default function App() {
         <Routes>
           <Route
             exact
-            path="/"
+            path="/React-Quiz-App"
             element={
               <Home
                 name={name}

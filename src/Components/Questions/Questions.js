@@ -60,7 +60,7 @@ const Questions = (props) => {
             varient="contained"
             size="large"
             style={{ backgroundColor: "red", width: 160, color: "white" }}
-            href="/"
+            href="/React-Quiz-App"
             onClick={handleQuit}
           >
             Quit
