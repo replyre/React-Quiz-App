@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     scrollbar-width:thin;
+   
 }
 a{
     text-decoration: inherit;
@@ -19,7 +20,7 @@ a{
     padding:5px;
 }
 
-@media screen and (max-width:1200px){
+@media  (max-width:1200px){
     .app{
         height:fit-content;
     }

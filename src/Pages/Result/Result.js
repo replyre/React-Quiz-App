@@ -24,7 +24,7 @@ useEffect(()=>{
     color='secondary'
     size="large"
     style={{ color:"white",alignSelf:"center", marginTop:20, backgroundColor:"red"}}
-    href="/">Home Page</Button>
+    href="/React-Quiz-App">Home Page</Button>
     </div>
     
   )
