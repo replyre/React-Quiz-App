@@ -1,0 +1,30 @@
+.title{
+    text-transform: uppercase;
+    font-size:6vw;
+    font-weight: bold;
+    font-family:'Monoton', cursive;
+    cursor:pointer;
+    color:rgba(11, 59, 73, 0.99)
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-info{
+    font-size: 3vw;
+    font-family: monospace;
+}
+.line{
+    margin: 10px;
+    width: 90%;
+    background-color: grey;
+    height:0.5vh;
+    border: none;
+}
+
+@media screen and (max-width:800px) {  
+   .title {font-size:8vw;}
+    
+}

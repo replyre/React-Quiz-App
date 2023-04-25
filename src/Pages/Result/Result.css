@@ -1,0 +1,26 @@
+.result{
+    margin-top:5vw;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* height:50vh; */
+    min-height:50vh;
+
+}
+
+.result>h1{
+    margin:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    /* background-color: aqua; */
+}
+.result>h2{
+    font-size: 25px;
+    font-family:monospace;
+}
+
+@media screen and (max-width:600px) {
+    .result{
+        margin-top:30vw;
+    }
+}

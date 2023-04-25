@@ -1,0 +1,96 @@
+.img{
+   width:50vw;
+   height:50vh;
+   background-color: rgba(158, 157, 157, 0.118);
+   border-radius: 20px;
+   ;border: 5px solid rgba(178, 177, 177, 0.805);
+}
+
+.content{
+    display: flex;
+   justify-content: center; 
+}
+.prerequisite{
+    width:45%;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+#outlined-basic{
+    border-bottom: 30px;
+    background-color: rgba(220, 215, 215, 0.581);
+}
+.select{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+    width:60%;
+    flex:0.8;
+    justify-content: space-evenly;
+    gap:20px;
+}
+
+#button{
+    color:aliceblue;
+    background-color:rgb(31, 81, 217);
+    width:50%;
+    margin:auto;
+    opacity:0.6;
+
+}
+#button:hover{
+  opacity:1;
+}
+
+
+@media screen and (max-width:1200px){
+    .img{
+        width:50vw;
+        height:50vh;
+        background-color: rgba(158, 157, 157, 0.118);
+     }
+
+     .select{
+        gap:20px;
+        width:100%;
+    }
+
+    .prerequisite{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:600px) {
+    .content{
+       flex-direction: column-reverse;
+       align-items: center; 
+    }
+
+    .img{
+   width:80vw;
+   height:35vh;
+   background-color: rgba(158, 157, 157, 0.118);
+}
+
+.prerequisite{
+    font-size: 25px;
+}
+
+.prerequisite{
+    width:80%;
+   
+
+}
+
+.select{
+    gap:20px;
+    width:100%;
+}
+
+}
+
