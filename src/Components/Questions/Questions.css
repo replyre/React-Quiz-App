@@ -91,7 +91,6 @@ background-color: rgba(245, 247, 250, 0.808);
 
 @media screen and (max-width:400px){
     .controls{
-        background-color: black;
         align-items: center;
         flex-direction: column-reverse;
     }
