@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { CircularProgress } from '@mui/material';
 import "./Quiz.css"
+import "./Questions.css"
 import Questions from '../../Components/Questions/Questions';
 
 const Quiz = (props) => {
